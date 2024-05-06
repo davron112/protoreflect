@@ -66,7 +66,7 @@ var wellKnownTypeNames = map[string]struct{}{
 // not present (including those with default/zero value for messages defined in
 // "proto3" syntax) are omitted.
 func (m *Message) MarshalJSON() ([]byte, error) {
-	return m.MarshalJSONPB(&jsonpb.Marshaler{})
+	return m.MarshalJSONPB(&jsonpb.Marshaler{EmitDefaults: true})
 }
 
 // MarshalJSONIndent serializes this message to bytes in JSON format, returning
@@ -86,7 +86,7 @@ func (m *Message) MarshalJSON() ([]byte, error) {
 // not present (including those with default/zero value for messages defined in
 // "proto3" syntax) are omitted.
 func (m *Message) MarshalJSONIndent() ([]byte, error) {
-	return m.MarshalJSONPB(&jsonpb.Marshaler{Indent: "  "})
+	return m.MarshalJSONPB(&jsonpb.Marshaler{EmitDefaults: true, Indent: "  "})
 }
 
 // MarshalJSONPB serializes this message to bytes in JSON format, returning an
