@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/davron112/protoreflect/internal/testutil"
 )
 
 func TestErrorReporting(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/jhump/protoreflect/desc/internal"
+	"github.com/davron112/protoreflect/desc/internal"
 )
 
 // Descriptor is the common interface implemented by all descriptor objects.

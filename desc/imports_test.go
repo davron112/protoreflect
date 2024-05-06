@@ -5,10 +5,10 @@ import (
 
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/protoparse"
-	_ "github.com/jhump/protoreflect/internal/testprotos"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/desc/protoparse"
+	_ "github.com/davron112/protoreflect/internal/testprotos"
+	"github.com/davron112/protoreflect/internal/testutil"
 )
 
 func TestResolveImport(t *testing.T) {

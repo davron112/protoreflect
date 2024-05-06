@@ -19,9 +19,9 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/internal/testprotos"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/internal/testprotos"
+	"github.com/davron112/protoreflect/internal/testutil"
 )
 
 func TestJSONUnaryFields(t *testing.T) {

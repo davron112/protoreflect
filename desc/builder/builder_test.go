@@ -8,17 +8,17 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/davron112/protoreflect/desc/protoparse"
 	"github.com/golang/protobuf/proto"
-	"github.com/jhump/protoreflect/desc/protoparse"
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/emptypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/dynamic"
-	_ "github.com/jhump/protoreflect/internal/testprotos"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/dynamic"
+	_ "github.com/davron112/protoreflect/internal/testprotos"
+	"github.com/davron112/protoreflect/internal/testutil"
 )
 
 func TestSimpleDescriptorsFromScratch(t *testing.T) {

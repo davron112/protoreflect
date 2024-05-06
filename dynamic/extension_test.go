@@ -5,9 +5,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/internal/testprotos"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/internal/testprotos"
+	"github.com/davron112/protoreflect/internal/testutil"
 )
 
 func TestSetExtension(t *testing.T) {

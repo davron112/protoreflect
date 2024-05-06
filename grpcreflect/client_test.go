@@ -33,10 +33,10 @@ import (
 	_ "google.golang.org/protobuf/types/known/typepb"
 	_ "google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/internal"
-	testprotosgrpc "github.com/jhump/protoreflect/internal/testprotos/grpc"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/internal"
+	testprotosgrpc "github.com/davron112/protoreflect/internal/testprotos/grpc"
+	"github.com/davron112/protoreflect/internal/testutil"
 )
 
 var client *Client

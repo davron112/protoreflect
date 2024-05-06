@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/davron112/protoreflect/internal/testutil"
 )
 
 // The single visitor returned has all functions set to record the method call.

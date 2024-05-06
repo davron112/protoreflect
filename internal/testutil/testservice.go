@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	grpc_testing "github.com/jhump/protoreflect/internal/testprotos/grpc"
+	grpc_testing "github.com/davron112/protoreflect/internal/testprotos/grpc"
 )
 
 // TestService is a very simple test service that just echos back request payloads

@@ -1,7 +1,7 @@
 edition = "2023";
 package testprotos;
 option features = { enum_type: CLOSED };
-option go_package = "github.com/jhump/protoreflect/internal/testprotos";
+option go_package = "github.com/davron112/protoreflect/internal/testprotos";
 message Foo {
   reserved reserved_field;
   int32 a = 1;

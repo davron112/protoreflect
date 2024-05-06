@@ -11,9 +11,9 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/internal"
-	"github.com/jhump/protoreflect/dynamic"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/desc/internal"
+	"github.com/davron112/protoreflect/dynamic"
 )
 
 type dependencies struct {

@@ -1,4 +1,4 @@
-module github.com/jhump/protoreflect
+module github.com/davron112/protoreflect
 
 go 1.19
 
@@ -7,6 +7,7 @@ require (
 	github.com/golang/protobuf v1.5.4
 	github.com/jhump/gopoet v0.1.0
 	github.com/jhump/goprotoc v0.5.0
+	github.com/jhump/protoreflect v1.16.0
 	google.golang.org/grpc v1.61.0
 	google.golang.org/protobuf v1.33.1-0.20240408130810-98873a205002
 )

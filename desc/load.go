@@ -10,8 +10,8 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/jhump/protoreflect/desc/sourceinfo"
-	"github.com/jhump/protoreflect/internal"
+	"github.com/davron112/protoreflect/desc/sourceinfo"
+	"github.com/davron112/protoreflect/internal"
 )
 
 // The global cache is used to store descriptors that wrap items in

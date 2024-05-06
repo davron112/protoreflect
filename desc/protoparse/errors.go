@@ -8,7 +8,7 @@ import (
 	"github.com/bufbuild/protocompile/parser"
 	"github.com/bufbuild/protocompile/reporter"
 
-	"github.com/jhump/protoreflect/desc/protoparse/ast"
+	"github.com/davron112/protoreflect/desc/protoparse/ast"
 )
 
 // SourcePos is the same as ast.SourcePos. This alias exists for

@@ -23,9 +23,9 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/internal"
-	"github.com/jhump/protoreflect/desc/protoparse/ast"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/desc/internal"
+	"github.com/davron112/protoreflect/desc/protoparse/ast"
 )
 
 // FileAccessor is an abstraction for opening proto source files. It takes the

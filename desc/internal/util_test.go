@@ -1,10 +1,10 @@
 package internal_test
 
 import (
-	"github.com/jhump/protoreflect/desc/internal"
+	"github.com/davron112/protoreflect/desc/internal"
 	"testing"
 
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/davron112/protoreflect/internal/testutil"
 )
 
 func TestCreatePrefixList(t *testing.T) {

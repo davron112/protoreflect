@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/davron112/protoreflect/desc"
 )
 
 // FieldType represents the type of a field or extension. It can represent a

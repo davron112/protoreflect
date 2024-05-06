@@ -16,8 +16,8 @@ import (
 	"google.golang.org/protobuf/types/known/typepb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/dynamic"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/dynamic"
 )
 
 const googleApisDomain = "type.googleapis.com"

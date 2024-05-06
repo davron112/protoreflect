@@ -8,8 +8,8 @@ package grpc
 
 import (
 	context "context"
-	testprotos "github.com/jhump/protoreflect/internal/testprotos"
-	pkg "github.com/jhump/protoreflect/internal/testprotos/pkg"
+	testprotos "github.com/davron112/protoreflect/internal/testprotos"
+	pkg "github.com/davron112/protoreflect/internal/testprotos/pkg"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

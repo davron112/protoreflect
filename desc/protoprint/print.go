@@ -20,8 +20,8 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/dynamicpb"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/internal"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/desc/internal"
 )
 
 // Printer knows how to format file descriptors as proto source code. Its fields

@@ -26,7 +26,7 @@ import (
 	_ "google.golang.org/protobuf/types/known/timestamppb"
 	_ "google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/davron112/protoreflect/desc"
 )
 
 var wellKnownTypeNames = map[string]struct{}{

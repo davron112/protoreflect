@@ -8,7 +8,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/jhump/protoreflect/codec"
+	"github.com/davron112/protoreflect/codec"
 )
 
 // defaultDeterminism, if true, will mean that calls to Marshal will produce

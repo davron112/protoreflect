@@ -19,8 +19,8 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/internal"
+	"github.com/davron112/protoreflect/desc"
+	"github.com/davron112/protoreflect/internal"
 )
 
 // If we try the v1 reflection API and get back "not implemented", we'll wait

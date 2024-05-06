@@ -6,7 +6,7 @@ package dynamic
 import (
 	"reflect"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/davron112/protoreflect/desc"
 )
 
 // Pre-Go-1.12, we must use reflect.Value.MapKeys to reflectively

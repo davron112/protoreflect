@@ -7,7 +7,7 @@
 package testprotos
 
 import (
-	pkg "github.com/jhump/protoreflect/internal/testprotos/pkg"
+	pkg "github.com/davron112/protoreflect/internal/testprotos/pkg"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
